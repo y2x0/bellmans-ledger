@@ -37,4 +37,7 @@ Prerequisites: `regularized_mdps_and_duality/01–02, 05`;
 06_token_mdp_or_bandit.md            deterministic transitions + terminal
                                      reward; GAE(1) collapse; GRPO as
                                      leave-one-out baseline
+07_rlvr_and_r1.md                    verifiable rewards delete the Goodhart
+                                     noise term; R1-Zero/GRPO dynamics;
+                                     the pipeline as this family's taxonomy
 ```

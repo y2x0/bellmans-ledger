@@ -126,6 +126,17 @@ lqr_and_continuous_control/    Riccati, PG on LQR, HJB/viscosity, path integrals
 stochastic_games/              Shapley 1953, cycling, CFR, self-play theory
 pomdps_and_information_state/  beliefs, alpha-vectors, PSPACE, PSRs, AIS
 model_based/                   simulation lemma, certainty equivalence, MuZero
+
+--- paper-driven additions (G-phase) ---
+
+options_and_hierarchy/         SMDPs, intra-option learning, option-critic
+                               gradients, what hierarchy buys
+successor_representations/     the resolvent as representation; SF + GPI
+                               transfer theorems
+imitation_and_inverse_rl/      BC's eps H^2 / DAgger's eps H; MaxEnt IRL;
+                               GAIL as occupancy matching
+sequence_models_and_rl/        Decision Transformer; why conditioning is
+                               not control; the honest scoreboard
 ```
 
 ## Notation

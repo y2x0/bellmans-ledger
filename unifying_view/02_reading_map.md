@@ -156,6 +156,21 @@ certainty equivalence minimax; leave-one-out   model_based/02        Azar 2013; 
 R-MAX dichotomy; UCRL2 D S sqrt(AT)            model_based/03        Brafman–Tennenholtz; Jaksch
 value equivalence propositions; MuZero         model_based/04        Grimm et al. 2020
 branched rollout bound; model exploitation     model_based/05        Janner et al. 2019
+
+--- paper-driven additions (G-phase) ---
+SMDP contraction, modulus E[gamma^tau]         options/01            Sutton–Precup–Singh 1999
+interruption improvement theorem               options/01            SPS 1999 Thm 2
+intra-option equations + convergence           options/02            SPS 1999
+intra-option policy + termination gradients    options/03            Bacon–Harb–Precup 2017
+SR = resolvent; TD per column                  successor_reps/01     Dayan 1993
+GPI theorem + transfer bound                   successor_reps/02     Barreto et al. 2017
+BC eps H^2 (tight); DAgger eps H               imitation/01          Ross–Bagnell 2010/11
+MaxEnt IRL = exponential-family MLE            imitation/02          Ziebart et al. 2008
+RL o IRL_psi = psi*-occupancy matching         imitation/03          Ho–Ermon 2016 Prop 3.2
+DT estimates the behavior conditional          seq_models/01         Chen et al. 2021
+conditioning buys luck; cannot stitch          seq_models/02         (worked; ESPER et al.)
+MuZero K-step loss as sampled VE constraints   model_based/06        Schrittwieser et al. 2019
+RLVR deletes proxy-Goodhart; GRPO frontier     rlhf/07               DeepSeek-AI 2025
 ```
 
 ## Threads Closed By The Expansion

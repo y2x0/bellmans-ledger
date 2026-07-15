@@ -64,6 +64,24 @@ CFR               per-infoset regret match  quadratic potential   tree infosets 
 R-MAX / UCRL2     T of optimistic model     L1 model polytope     tabular model        PAC / D S sqrt(AT)
 MuZero            T of value-equiv. model   Bellman-agreement     latent + MCTS        none formal; VE license
 belief-MDP VI     T on Delta(S)             sup-norm (PWLC)       alpha-vectors        exact; PSPACE-complete
+--- paper-driven additions ---
+SMDP / options VI T over (r_w, p_w)         sup-norm, modulus     table over S x Omega E[gamma^tau]-contraction
+                                            E[gamma^tau]
+intra-option QL   coupled (q, U) backup     sup-norm + RM         table                a.s. (SPS 1999)
+option-critic     PG thm on augmented chain (nonconvex ascent)    pi_w, beta_w         local; collapse modes
+SR / SF TD        T^pi per feature column   L2(mu) / sup + RM     M or psi tables/lin  TvR per column
+SF + GPI          envelope-greedy improve   sup-norm              linear in phi per w  q^pi >= max_i q^{pi_i}
+                                                                                       - 2eps/(1-g)
+BC                none: regression          L2(d_expert)          any                  J* + eps H^2 (tight)
+DAgger            no-regret online fit      L2(d_learner)         any                  J* + u eps H
+MaxEnt IRL        soft-VI inside MLE        exp-family logloss    linear r = w.phi     unique convex selection
+GAIL              occupancy-matching saddle psi* divergence (JS)  rho_pi vs rho_E      = RL o IRL_psi (Prop 3.2)
+Decision Transf.  none: conditional MLE     sequence logloss      transformer          behavior conditional only;
+                                                                                       fails luck + stitching
+MuZero            T of latent VE model      K-step (r,v,p)-agree  latent + PUCT        none formal; planning-
+                                                                                       complete empirically
+RLVR / GRPO (R1)  MW ascent, exact r        group-normalized adv  LLM policy           deletes proxy Goodhart;
+                                                                                       frontier-of-pass@k signal
 
 * under max-KL; practice substitutes mean-KL
 ```

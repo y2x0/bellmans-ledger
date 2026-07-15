@@ -27,4 +27,6 @@ Prerequisites: `mdp_foundations/`, `concentration_toolkit/`,
 03_optimism_through_models.md  R-MAX's explore-or-exploit; UCRL2
 04_value_equivalence_muzero.md the model only owes the planner; MuZero
 05_compounding_error_dyna.md   branched rollouts; the planner as adversary
+06_muzero_paper.md             the paper itself: three functions, the K-step
+                               loss as sampled VE constraints, Reanalyze
 ```

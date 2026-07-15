@@ -1,4 +1,7 @@
-# Mathematics of Reinforcement Learning
+# Bellman's Ledger
+
+*The mathematics of reinforcement learning — every bound priced, every
+hypothesis audited.*
 
 This notebook family asks:
 

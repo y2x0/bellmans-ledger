@@ -3,6 +3,12 @@
 *The mathematics of reinforcement learning — every bound priced, every
 hypothesis audited.*
 
+Companion repository:
+[attention-ledger](https://github.com/y2x0/attention-ledger) — the same
+program for transformers. The index of every result proved in full here
+is [THEOREMS.md](THEOREMS.md); the expansion's per-file contracts are in
+[PLAN.md](PLAN.md) (complete).
+
 This notebook family asks:
 
 ```text

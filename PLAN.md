@@ -1,5 +1,10 @@
 # PLAN: The Deep Expansion
 
+**STATUS: complete.** All phases A–F shipped, the G-phase paper-driven
+families with them, and the retrofit list landed; THEOREMS.md indexes
+the proved results. Kept as the contract the expansion was built
+against.
+
 This document governs all future notebooks in this repository. It is a
 contract, not a wishlist: a family enters this plan only with a per-file
 specification of the results to be proved, and a file ships only if it meets
